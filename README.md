@@ -24,8 +24,8 @@
 </div>
 <br>
 <br>
-<div align="center">
-  <b>✒️ TOOL</b>
+
+## ✒️ TOOL
 </div>
 <div align = center>
         <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariaDB&logoColor=white"/>
