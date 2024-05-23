@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=ff7900&height=150&section=header" />
-  <h1 style="color:#ff7900; border: none;">📝 PLANNERS 📝</h1>
+  <h1 style="color:#ff7900; border: none;">🥳 PLANNERS 🥳</h1>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=ff7900&height=150&section=footer" />
 </div>
 
