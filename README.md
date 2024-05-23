@@ -37,6 +37,8 @@
 ## WBS
 [WBS](https://docs.google.com/spreadsheets/d/1LAZsxEpzBgCglvKUoDnjemNEupANmbdYm5zDxOQG5TM/edit#gid=0)
 
+<br>
+<br>
 
 <h2>🥳 프로젝트 소개</h2>
 ✔️ 바쁜 일상생활 속에서 추억을 선물해주는 공간을 찾기 위해 파티룸 대여 서비스를 제작하였습니다.
