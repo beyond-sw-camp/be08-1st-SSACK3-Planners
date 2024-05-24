@@ -16,7 +16,7 @@
       <td align="center"><a href="https://github.com/jeongjinjoo"><img   src="https://github.com/jeongjinjoo/test1/blob/main/%EC%A0%95%EC%A7%84%EC%A3%BC.png"width="100px;" alt=""/><br /><b> 🧸정진주 </b></a><br /></td>
       <td align="center"><a href="https://github.com/yoousung"><img src="https://github.com/jeongjinjoo/test1/blob/main/%EA%B0%95%EC%9C%A0%EC%84%B1.png" width="100px;" alt=""/><br /><b>🐶 강유성</b></a><br /></td>
       <td align="center"><a href="https://github.com/sjpark-08"><img src="https://github.com/beyond-sw-camp/be08-1st-3team/blob/main/%EB%B0%95%EC%84%B1%EC%A4%80.png" width="100px;" alt=""/><br /><b>🦊박성준</b></a><br /></td>
-      <td align="center"><a href="https://github.com/tkckdnjs"><img src="" width="100px;" alt=""/><br /><b>🐥이은서</b></a><br /></td>
+      <td align="center"><a href="https://github.com/tkckdnjs"><img src="https://github.com/beyond-sw-camp/be08-1st-3team/blob/main/%EC%9D%B4%EC%9D%80%EC%84%9C.png" width="100px;" alt=""/><br /><b>🐥이은서</b></a><br /></td>
       <td align="center"><a href="https://github.com/Sujina2024"><img src="https://github.com/beyond-sw-camp/be08-1st-3team/blob/main/%EC%A0%95%EC%88%98%EC%A7%84.png" width="100px;" alt=""/><br /><b>🐰정수진</b></a><br /></td>
      <tr/>
   </tbody>
