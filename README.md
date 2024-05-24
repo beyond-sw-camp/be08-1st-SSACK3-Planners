@@ -1,11 +1,5 @@
 # be08-1st-project-🧦🧦🧦-PLANNERS
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff7900&height=150&section=header" />
-  <h1 style="color:#ff7900; border: none;">🥳 PLANNERS 🥳</h1>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff7900&height=150&section=footer" />
-</div>
-
 <div align="center"><br><b>:dizzy:한화시스템 BEYOND SW캠프 1차 프로젝트:dizzy:</b></br></div>
 <br>
 <br>
