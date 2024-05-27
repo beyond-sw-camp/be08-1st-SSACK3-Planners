@@ -37,7 +37,9 @@
 <br>
 <br>
 
+![image](https://github.com/beyond-sw-camp/be08-1st-3team/blob/main/%EC%86%8C%EA%B0%9C.png)
 
+ 
 <h2>🥳 프로젝트 소개 </h2>
 ✔️ 바쁜 일상생활 속에서 추억을 선물해주는 공간을 찾기 위해 파티룸 대여 서비스를 제작하였습니다.
 <br>
