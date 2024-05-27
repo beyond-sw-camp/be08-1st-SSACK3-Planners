@@ -22,8 +22,11 @@
 <br>
 <br>
 
+
+  
 ## ✒️ TOOL
-</div>
+
+
 <div align = "left">
         <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariaDB&logoColor=white"/>
         <img src="https://img.shields.io/badge/Ubunt-e95420?style=flat-square&logo=mariaDB&logoColor=white"/>
