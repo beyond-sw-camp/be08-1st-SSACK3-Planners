@@ -100,6 +100,7 @@
 <br>
 
 ## 📚 요구사항 명세서
+[요구사항 명세서](https://docs.google.com/spreadsheets/d/1LAZsxEpzBgCglvKUoDnjemNEupANmbdYm5zDxOQG5TM/edit#gid=1155695376)
 
 <br>
 <br>
