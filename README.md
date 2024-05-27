@@ -31,7 +31,7 @@
 <br>
 <br>
 
-## WBS
+## ✈️ WBS
 [WBS](https://docs.google.com/spreadsheets/d/1LAZsxEpzBgCglvKUoDnjemNEupANmbdYm5zDxOQG5TM/edit#gid=0)
 
 <br>
