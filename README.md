@@ -1,6 +1,7 @@
 # be08-1st-project-🧦🧦🧦-PLANNERS
 
-![image](https://github.com/beyond-sw-camp/be08-1st-3team/blob/main/%ED%8F%AC%EC%8A%A4%ED%84%B0-2.png)
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/f8baf32a-599c-4f73-b7f7-a4761a1e15fa)
+
 
 <div align="center">
   <br><b>:dizzy:한화시스템 BEYOND SW캠프 1차 프로젝트:dizzy:</b></br></div>
