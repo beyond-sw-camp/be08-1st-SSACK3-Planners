@@ -162,3 +162,12 @@
 
 
 ## 😊 한 줄 회고록
+
+|&nbsp;&nbsp;팀&nbsp;원&nbsp;&nbsp;&nbsp;|회고록|
+|:---:|---|
+|🧸정진주|<br>&nbsp;|
+|🐶강유성|<br>&nbsp;|
+|🦊박성준|<br>&nbsp;|
+|🐥이은서|<br>&nbsp;|
+|🐰정수진|<br>&nbsp;|
+<br>
