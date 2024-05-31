@@ -153,9 +153,18 @@
 <br>
 
 ## 💻 서버 구축
+#### 1. 버전
 
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/7fd3d6ba-e4eb-4574-b2dc-ec2dd2af05c8)
+<br>
+#### 2. 외부 접속을 위해서/etc/mysql/mariadb.conf.d/50-server.cnf 파일의bind-address 수정
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/19e02d70-05d9-4bb5-a475-2a53a99de7f7)
 
 <br>
+
+#### 3.AWS ec2 인스턴스 보안그룹 인바운드 규칙 추가
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/ec5dadee-54b8-4f18-aa74-bd1315df2a6e)
+
 <br>
 
 
