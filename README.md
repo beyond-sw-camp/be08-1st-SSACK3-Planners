@@ -297,6 +297,11 @@ CREATE TABLE Supplies_pay (
 ![결제테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/c6693dea-4f8f-40fa-91d0-b2812922b06e)
 
 
+#### 물품 테이블
+
+![물품테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/8eaedd66-95b9-4ce5-b0b7-d4e9885f4ac3)
+
+
 
 ## 💻 서버 구축
 #### 1. 버전
