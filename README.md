@@ -140,6 +140,9 @@
 
 ## 📚 ERD
 
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/762ec664-09f6-437f-8083-bc796dd802fc)
+
+
 ![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/0bce8c6c-6e70-424b-bdff-9ea496fcfc3f)
 
 
@@ -251,7 +254,7 @@ CREATE TABLE Supplies_pay (
 <br>
 
 ## 테스트
-#### 1. 
+
 
 
 ## 💻 서버 구축
