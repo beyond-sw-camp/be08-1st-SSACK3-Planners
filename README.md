@@ -268,9 +268,34 @@ CREATE TABLE Supplies_pay (
 
 ![트리거사용](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/a0d884d5-4ad5-4aff-82f0-ca2e46d0f0c1)
 
-#### 회원 테이블 기능
+#### 회원 테이블
 
 ![회원테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/25285f6e-8253-450e-a01a-ab1508ae99b8)
+
+
+#### 사장 테이블
+
+![사장테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/255828ed-f769-4281-a574-7bf88bb07186)
+
+
+#### 파티룸 테이블
+
+![파티룸테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/7d1a1ef7-bc80-4390-923e-8b91fcfa8b84)
+
+#### 리뷰 테이블
+
+![리뷰테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/3c276b6b-fe0f-4660-9a00-3b2d9c055110)
+
+#### 예약 테이블
+
+![예약테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/5522bc98-8714-43e3-8170-934fe3f68b62)
+
+
+
+#### 결제 테이블
+
+![결제테이블](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/c6693dea-4f8f-40fa-91d0-b2812922b06e)
+
 
 
 ## 💻 서버 구축
