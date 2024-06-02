@@ -259,6 +259,10 @@ CREATE TABLE Supplies_pay (
 <br>
 
 
+## 🧑테스트
+
+[테이블생성](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/blob/main/2024_06_02%2017_38.gif)
+
 
 ## 💻 서버 구축
 #### 1. 버전
