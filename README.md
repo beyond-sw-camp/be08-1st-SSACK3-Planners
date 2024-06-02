@@ -135,6 +135,7 @@
 ## ☑️ 요구사항 명세서
 [요구사항 명세서](https://docs.google.com/spreadsheets/d/1LAZsxEpzBgCglvKUoDnjemNEupANmbdYm5zDxOQG5TM/edit#gid=1155695376)
 
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/06ee4f6c-7a93-4e97-9a1f-7c1f31d8d916)
 
 
 
