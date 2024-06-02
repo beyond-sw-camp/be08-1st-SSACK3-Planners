@@ -144,6 +144,9 @@
 
 ## 📚 논리적 모델링
 
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/0bce8c6c-6e70-424b-bdff-9ea496fcfc3f)
+
+
 <br>
 <br>
 
