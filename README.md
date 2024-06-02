@@ -160,14 +160,6 @@ CREATE TABLE Membership_level(
     discount INT NOT NULL,
     level VARCHAR(10) UNIQUE
 );
-INSERT INTO Membership_level(level, MIN, MAX, discount) VALUES ('diamond', 400000, 1000000, 8);
-INSERT INTO Membership_level(level, MIN, MAX, discount) VALUES ('platinum', 300000, 400000, 6);
-INSERT INTO Membership_level(level, MIN, MAX, discount) VALUES ('gold', 200000, 300000, 4);
-INSERT INTO Membership_level(level, MIN, MAX, discount) VALUES ('silver', 100000, 200000, 2);
-INSERT INTO Membership_level(level, MIN, MAX, discount) VALUES ('bronze', 0, 100000, 0);
-
-SELECT *
-FROM Membership_level;
 -- ================================================================================================
 -- 유저 테이블 생성
 CREATE TABLE USER (
@@ -182,28 +174,7 @@ CREATE TABLE USER (
 	total_payment INT NOT NULL DEFAULT 0,
 	member_id INT REFERENCES Membership_level(member_id)
 );
-INSERT INTO USER(email, pwd, `NAME`, birth, phone, addr, gender, total_payment, member_id) VALUES ('kus991204@naver.com', '1234', '강유성', '1999-12-04', '01090568142', '경기도 수원시', '남', 230000, 3);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('macleod.park@gmail.,com', '5678', '박성준', '1994-08-08', '01099726390', '경기도 연천군', '남', 240000, 3);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('ssesl1218@naver.com', '1234', '이은서', '2001-12-18', '01072079890', '서울특별시 강서구', '여', 250000, 3);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('123jj@naver.com', '5678', '정수진', '2002-12-12', '01000001234', '서울특별시 강서구', '여', 260000, 3);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('enjoy2573@naver.com', '1234','정진주', '2001-09-15', '01047549811', '서울특별시 관악구', '여', 270000, 3);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('user6@naver.com', '1234', '손오공', '1970-07-12', '01022221111', '서울특별시 광진구', '남', 150000, 4);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('user7@naver.com', '5678', '이몽룡', '1990-09-25', '01022223333', '서울특별시 종로구', '남', 50000, 5);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('user8@naver.com', '1234', '성춘향', '1990-11-04', '01022224444', '서울특별시 동작구', '여', 130000, 4);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('user9@naver.com', '5678', '고길동', '1972-03-12', '01022225555', '서울특별시 성북구', '남', DEFAULT, 5);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('user10@naver.com', '1234', '신짱구', '1994-05-05', '01022226666', '서울특별시 강남구', '남', DEFAULT, 5);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('minsu78@gmail.com', '9101', '최민수', '1978-03-10', '01055554444', '경기도 성남시', '남', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('jiminhan00@naver.com', '1122', '한지민', '2000-11-25', '01066667777', '부산광역시 해운대구', '여', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('seunghyun92@naver.com', '3344', '오승현', '1992-07-07', '01022223334', '대전광역시 중구', '남', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('nayoung97@gmail.com', '5566', '김나영', '1997-02-14', '01011114444', '서울특별시 송파구', '여', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('woosung85@hanmail.net', '7788', '정우성', '1985-09-30', '01033335555', '서울특별시 강동구', '남', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('sujin03@naver.com', '9900', '이수진', '2003-06-21', '01044446666', '경기도 용인시', '여', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('dahye90@daum.net', '1123', '최다혜', '1990-12-10', '01055557777', '서울특별시 은평구', '여', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('junhyuk88@naver.com', '1234', '이준혁', '1988-05-15', '01012345678', '서울특별시 강남구', '남', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('jisoo95@daum.net', '5678', '박지수', '1995-08-20', '01087654321', '서울특별시 서초구', '여', DEFAULT, 1);
-INSERT INTO USER(email, pwd, `name`, birth, phone, addr, gender, total_payment, member_id) VALUES ('eeiefieh456@naver.com', '4578', '김미선', '1999-12-31', '01074875566', '서울특별시 영등포구', '여', DEFAULT, 1);
 
-SELECT *FROM USER;
 -- ================================================================================================
 -- 사장 테이블 생성
 CREATE TABLE OWNER (
@@ -216,17 +187,6 @@ CREATE TABLE OWNER (
 	addr VARCHAR(30) NOT NULL,
 	gender CHAR(1) NOT NULL CHECK(gender IN ('남', '여'))
 );
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer1@gmail.com','1234', '강사장', '1984-05-28','01011112222', '서울특별시 강남구', '남');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer2@gmail.com', '5678', '김사장', '1978-10-24', '01011113333', '서울특별시 동작구', '남');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer3@gmail.com', '1234', '박사장', '1982-03-13', '01011114444', '경기도 의정부', '여');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer4@gmail.com', '5678', '이사장', '1990-04-12', '01011115555', '서울특별시 광진구', '남');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer5@gmail.com', '1234', '정사장', '1988-11-01', '01011116666', '서울특별시 종로구', '여');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer6@gmail.com', '5678', '백사장', '1970-01-20', '01011117777', '서울특별시 강남구', '여');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer7@gmail.com', '1234', '한사장', '1977-04-02', '01011118888', '경기도 수원시', '남');
-INSERT INTO OWNER(email, pwd, `name`, birth, phone, addr, gender) VALUES ('onwer8@gmail.com', '5678', '곽사장', '1981-09-12', '01011119999', '서울특별시 용산', '남');
-
-SELECT *
-FROM OWNER;
 -- ================================================================================================
 -- 파티룸 테이블 생성
 CREATE TABLE Partyroom (
@@ -238,40 +198,12 @@ CREATE TABLE Partyroom (
     price INT NOT NULL,
     owner_id INT REFERENCES OWNER(owner_id) ON DELETE CASCADE
 );
-INSERT INTO Partyroom VALUES (1,'초코나무숲_301호', '서울특별시 강남구', 20, 10, 280000, 1);
-INSERT INTO Partyroom VALUES (2, '공간서가_401호', '경기도 의정부', 20, 12, 120000, 2);
-INSERT INTO Partyroom VALUES (3, '셀렉트_201호', '서울특별시 광진구', 15, 8, 100000, 3);
-INSERT INTO Partyroom VALUES (4, '블랑_102호', '서울특별시 동작구', 30, 15, 150000, 4);
-INSERT INTO Partyroom VALUES (5, '알파카_101호', '서울특별시 종로구', 30, 15, 200000, 5);
-INSERT INTO Partyroom VALUES (6, '알파카_102호', '서울특별시 종로구', 25, 12, 200000, 5);
-INSERT INTO Partyroom VALUES (7, '알파카_103호', '서울특별시 종로구', 20, 9, 200000, 5);
-INSERT INTO Partyroom VALUES (8, '알파카_104호', '서울특별시 종로구', 15, 5, 200000, 5);
-INSERT INTO Partyroom VALUES (9, '초코나무숲_302호', '서울특별시 강남구', 25, 12, 300000, 1);
-INSERT INTO Partyroom VALUES (10, '초코나무숲_303호', '서울특별시 강남구', 20, 10, 200000, 1);
-INSERT INTO Partyroom VALUES (11, '초코나무숲_304호', '서울특별시 강남구', 15, 8, 100000, 1);
-INSERT INTO Partyroom VALUES (12, '공간서가_402호', '경기도 의정부', 40, 30, 400000, 2);
-INSERT INTO Partyroom VALUES (13, '공간서가_403호', '경기도 의정부', 25, 10, 200000, 2);
-INSERT INTO Partyroom VALUES (14, '셀렉트_202호', '서울특별시 광진구', 20, 10, 150000, 3);
-INSERT INTO Partyroom VALUES (15, '셀렉트_203호', '서울특별시 광진구', 30, 15, 250000, 3);
-INSERT INTO Partyroom VALUES (16, '블랑_103호', '서울특별시 동작구', 20, 6, 100000, 4);
-INSERT INTO Partyroom VALUES (17, '블랑_104호', '서울특별시 광진구', 30, 16, 300000, 4);  
-
-SELECT *
-FROM Partyroom;
 -- ================================================================================================
 -- 결제방법 테이블
 CREATE TABLE Pay_method(
     payment_id INT AUTO_INCREMENT PRIMARY KEY,
     method VARCHAR(15) UNIQUE
 );
-INSERT INTO Pay_method(method) VALUES ('cash');
-INSERT INTO Pay_method(method) VALUES ('credit_card');
-INSERT INTO Pay_method(method) VALUES ('bank_transfer');
-INSERT INTO Pay_method(method) VALUES ('mobile_payment');
-INSERT INTO Pay_method(method) VALUES ('qr_code');
-
-SELECT *
-FROM Pay_method;
 -- ================================================================================================
 -- 물품 테이블 생성
 CREATE TABLE Supplies (
@@ -280,15 +212,6 @@ CREATE TABLE Supplies (
 	NAME VARCHAR(10) NOT NULL,
 	stock INT NOT NULL
 );
-INSERT INTO Supplies VALUES (1, 20000, 'speaker', 5);
-INSERT INTO Supplies VALUES (2, 10000, 'microphone', 10);
-INSERT INTO Supplies VALUES (3, 50000, 'projector', 3);
-INSERT INTO Supplies VALUES (4, 20000, 'p_lighting', 10);
-INSERT INTO Supplies VALUES (5, 1000, 'balloons', 20);
-INSERT INTO Supplies VALUES (6, 40000, 'camera', 4);
-
-SELECT *
-FROM Supplies;
 -- ================================================================================================
 -- 예약 테이블 생성
 CREATE TABLE Reservation (
@@ -300,16 +223,6 @@ CREATE TABLE Reservation (
     userid INT REFERENCES USER(user_id),
     payment INT NOT NULL
 );
-
-INSERT INTO Reservation VALUES (1, '2024-01-15 17:00:00', '2024-01-16 11:00:00', 6, 1, 1, 130000);
-INSERT INTO Reservation VALUES (2, '2024-01-18 19:00:00', '2024-01-19 11:00:00', 10, 2, 2, 149000);
-INSERT INTO Reservation VALUES (3, '2024-02-03 18:00:00', '2024-02-04 11:00:00', 7, 3, 3, 160000);
-INSERT INTO Reservation VALUES (4, '2024-03-10 17:00:00', '2024-03-11 11:00:00', 10, 4, 4, 193000);
-INSERT INTO Reservation VALUES (5, '2024-03-23 18:00:00', '2024-03-24 11:00:00', 12, 5, 5, 260000);
-INSERT INTO Reservation VALUES (6, '2024-03-23 19:00:00', '2024-03-24 11:00:00', 6, 3, 1, 100000);
-
-SELECT *
-FROM Reservation;
 -- ================================================================================================
 -- 리뷰 테이블
 CREATE TABLE Review (
@@ -320,14 +233,6 @@ CREATE TABLE Review (
     star INT NOT NULL,
     reservation_id INT NOT NULL REFERENCES Reservation(reservation_id)
 );
-INSERT INTO Review VALUES (1, '2024-03-02', 'title1', 'content1', 4, 1);
-INSERT INTO Review VALUES (2, '2024-04-12', 'title2', 'content2', 5, 2);
-INSERT INTO Review VALUES (3, '2024-02-15', 'title3', 'content3', 3, 3);
-INSERT INTO Review VALUES (4, '2024-05-02', 'title4', 'content4', 4, 4);
-INSERT INTO Review VALUES (5, '2024-02-14', 'title5', 'content5', 5, 5);
-
-SELECT *
-FROM Review;
 -- ================================================================================================
 -- 결제 테이블 생성
 CREATE TABLE Pay (
@@ -336,15 +241,6 @@ CREATE TABLE Pay (
     reservation_id INT REFERENCES Reservation(reservation_id),
     payment_id INT REFERENCES Pay_method(payment_id)
 ); 
-INSERT INTO Pay VALUES (1, '2024-01-12 17:00:00', 1, 2);
-INSERT INTO Pay VALUES (2, '2024-01-13 10:00:00', 2, 2);
-INSERT INTO Pay VALUES (3, '2024-01-18 15:00:00', 3, 3);
-INSERT INTO Pay VALUES (4, '2024-02-10 13:00:00', 4, 2);
-INSERT INTO Pay VALUES (5, '2024-03-05 19:00:00', 5, 2);
-INSERT INTO Pay VALUES (6, '2024-02-25 11:30:25', 6, 1);
-
-SELECT *
-FROM Pay;
 -- ================================================================================================
 -- 물품결제 테이블 생성
 CREATE TABLE Supplies_pay (
@@ -354,18 +250,6 @@ CREATE TABLE Supplies_pay (
 	pay_id INT REFERENCES Pay(pay_id),
 	supply_id INT REFERENCES Supplies(supply_id)
 );
-
-INSERT INTO Supplies_pay VALUES (1, 4, 'N', 1, 3);
-INSERT INTO Supplies_pay VALUES (2, 5, 'N', 1, 4);
-INSERT INTO Supplies_pay VALUES (3, 19, 'N', 1, 5);
-INSERT INTO Supplies_pay VALUES (4, 2, 'N', 2, 2);
-INSERT INTO Supplies_pay VALUES (5, 1, 'N', 3, 2);
-INSERT INTO Supplies_pay VALUES (6, 2, 'N', 4, 2);
-INSERT INTO Supplies_pay VALUES (7, 0, 'N', 4, 3);
-INSERT INTO Supplies_pay VALUES (8, 10, 'N', 4, 4);
-INSERT INTO Supplies_pay VALUES (9, 2, 'N', 5, 6);
-
-
 ```
 <br>
 <br>
