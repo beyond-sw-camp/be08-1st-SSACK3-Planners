@@ -143,8 +143,8 @@
 <br>
 
 ## 📚 ERD
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/460f52ca-ae02-408a-9f8a-8157e23557b3)
 
-![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/762ec664-09f6-437f-8083-bc796dd802fc)
 
 ![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/e7bf110b-42f2-4f16-9924-d02a2d9cc3b8)
 
