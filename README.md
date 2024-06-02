@@ -264,6 +264,11 @@ CREATE TABLE Supplies_pay (
 
 ![테이블생성](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/1aba1192-c130-4ccf-9121-81fd31ace64a)
 
+#### 트리거사용
+
+![트리거사용](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/a0d884d5-4ad5-4aff-82f0-ca2e46d0f0c1)
+
+
 
 
 ## 💻 서버 구축
