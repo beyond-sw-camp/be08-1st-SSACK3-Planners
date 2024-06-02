@@ -260,11 +260,9 @@ CREATE TABLE Supplies_pay (
 
 
 ## 🧑테스트
+#### 테이블생성
 
-
-<p align="center">
-  <img src="https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/issues/1">
-</p>
+![테이블생성](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/1aba1192-c130-4ccf-9121-81fd31ace64a)
 
 
 
