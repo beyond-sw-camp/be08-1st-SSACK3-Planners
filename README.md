@@ -40,6 +40,9 @@
 ## ✈️ WBS
 [WBS](https://docs.google.com/spreadsheets/d/1LAZsxEpzBgCglvKUoDnjemNEupANmbdYm5zDxOQG5TM/edit#gid=0)
 
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/7776b037-6d94-41f9-b2b0-c45b7e3c74a3)
+
+
 <br>
 <br>
 
