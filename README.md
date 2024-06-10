@@ -145,6 +145,13 @@
 <br>
 <br>
 
+## ☑️ 테이블 명세서
+
+![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/d753af17-d80a-457e-a65f-1e683168604a)
+
+
+
+
 ## 📚 ERD
 ![image](https://github.com/beyond-sw-camp/be08-1st-SSACK3-Planners/assets/127469489/460f52ca-ae02-408a-9f8a-8157e23557b3)
 
